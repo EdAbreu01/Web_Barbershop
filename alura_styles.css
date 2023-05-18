@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(172, 170, 170);
+    padding: 20px 0;
+    }
+    
+    .headline2{
+    margin-top: 0px;
+    }
+    
+    .box{
+        position: relative;
+        margin: auto;
+        width: 940px;
+        }
+        
+    
+    ul {
+        position: absolute;
+        top: 15px;
+        right: 0px;
+    }
+    
+    ul li {
+        display: inline-block;
+        font-size: 15pt;
+        margin-left: 20px;
+    }
+    
+    
+    ul li a {
+        text-decoration:none;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+
+.card{
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width:250px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    border: solid 1px gray;
+    margin: 30px ;
+    box-shadow: 2px 2px #c7c7c7;}
+
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    border: solid 2px gray;
+    box-shadow: 5px 5px #888888;
+}
+
+
+.card_container{
+width: fit-content;
+margin: auto;
+margin-top: 50px;
+}
+
+.card div{
+    margin: auto;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px; 
+    background-image: url(https://content.latest-hairstyles.com/wp-content/uploads/hairstyles-for-men-with-thick-hair.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 270px;
+    background-position: center;
+}
+
+.image2{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px; 
+    background-image: url(https://wellgroomedgentleman.com/media/images/salt-and-pepper-beard-and-moustache-with-gray-.width-800.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: center;
+}
+
+.image3{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px; 
+    background-image: url(https://www.menshairstylestoday.com/wp-content/uploads/2019/01/Balbo-Beard.jpg.webp) ;
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: center;
+}
+
+
+
+h2 {
+margin: 12px 0 8px 0;
+}
+
+p {
+
+}
+
+h4{
+    padding: 18px 70px;
+    background-color: rgb(68, 144, 243);
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px 0 8px 0;
+}
+
+footer{
+    background-color: blueviolet;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 350px;;
+    margin-top: 60px;
+    background-image: url(https://i0.wp.com/texturefabrik.com/wp-content/uploads/2020/09/texturefabrik_dust-01.jpg) ;
+    background-repeat: repeat;
+
+
+}
+
+footer div {
+
+    margin: auto;
+    width:fit-content;
+    height: fit-content;
+    position: relative;
+    top: 30px;
+
+
+}
+
+footer div p {
+    display: block;
+    margin: auto;
+    width:fit-content;
+
+
+}
