@@ -263,3 +263,14 @@ footer div p {
 .ed {
 color: #13f7ff;
 }
+
+
+
+@media screen and (max-width: 880px){
+    
+.box
+{
+background-color: #ec7e00;
+}
+    
+}
