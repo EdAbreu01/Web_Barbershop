@@ -132,33 +132,41 @@ h4{
     margin: 8px 0 8px 0;
 }
 
+/* FOOTER */
+
 footer{
-    background-color: blueviolet;
+    position: relative;
+    bottom: -600px;
+    background-color: rgb(29, 18, 56);
     width: 100%;
-    margin-bottom: 0px;
     height: 350px;
-    margin-top: 60px;
-    background-image: url(wood_header.jpg) ;
+    /* background-image: url(wood_header.jpg) ;*/
     background-repeat: repeat;
-
-
 }
 
 footer div {
-
     margin: auto;
     width:fit-content;
     height: fit-content;
     position: relative;
-    top: 30px;
-
-
+    top: 80px;
 }
+
+footer div h1 {
+    margin: auto;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
 
 footer div p {
     display: block;
     margin: auto;
     width:fit-content;
-
-
+    color: rgb(250, 250, 250);
 }
+
+.ed {
+color: #13f7ff;
+}
+
