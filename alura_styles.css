@@ -67,15 +67,14 @@ header {
 
 .card{
     display: inline-block;
-    background-color: rgb(212, 212, 212);
     width:250px;
     height: 400px;
     text-align: center;
     padding: 10px;
     border-radius: 12px;
-    border: solid 1px gray;
+    border: solid 1px rgb(255, 255, 255);
     margin: 30px ;
-    box-shadow: 2px 2px #c7c7c7;}
+  }
 
 .card:hover{
     background-color: rgb(255, 255, 255);
@@ -127,6 +126,14 @@ margin-top: 50px;
     background-position: center;
 }
 
+.parrafo {
+    width: 940px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    line-height:  26px;
+    
+    }
 
 
 h2 {
@@ -180,3 +187,16 @@ footer div p {
 color: #13f7ff;
 }
 
+
+
+
+
+.services_card{
+    display: inline-block;
+    width: 300px;
+    height: 320px;
+    margin: auto ;
+    border: solid 2px #b8e4f5;
+    border-radius: 20px;
+    transition: .5s;
+}
