@@ -68,19 +68,22 @@ header {
 .card{
     display: inline-block;
     width:250px;
-    height: 400px;
+    height: 415px;
     text-align: center;
     padding: 10px;
     border-radius: 12px;
     border: solid 1px rgb(255, 255, 255);
     margin: 30px ;
+    color: #eeeeee;
   }
 
 .card:hover{
-    background-color: rgb(255, 255, 255);
-    border: solid 2px gray;
-    box-shadow: 5px 5px #888888;
-}
+        /* background-color: #52a5a5;*/
+        border: solid 1px #79d5ff;
+
+    }
+
+
 
 
 .card_container{
@@ -90,7 +93,7 @@ margin-top: 50px;
 }
 
 .card div{
-    margin: auto;
+margin: auto;
 }
 
 .image{
@@ -132,12 +135,14 @@ margin-top: 50px;
     text-align: center;
     color: aliceblue;
     line-height:  26px;
+    margin-top: 50px;
     
     }
 
 
 h2 {
 margin: 12px 0 8px 0;
+font-size: 20px;
 }
 
 
@@ -147,13 +152,15 @@ h4{
     border-radius: 8px;
     display: inline-block;
     margin: 8px 0 8px 0;
+    font-size: 20px;
+
 }
 
 /* FOOTER */
 
 footer{
     position: relative;
-    bottom: -600px;
+    bottom: -150px;
     background-color: rgb(29, 18, 56);
     width: 100%;
     height: 350px;
@@ -190,13 +197,3 @@ color: #13f7ff;
 
 
 
-
-.services_card{
-    display: inline-block;
-    width: 300px;
-    height: 320px;
-    margin: auto ;
-    border: solid 2px #b8e4f5;
-    border-radius: 20px;
-    transition: .5s;
-}
