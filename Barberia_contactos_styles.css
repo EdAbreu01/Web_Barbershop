@@ -90,12 +90,15 @@ main{
 }
 
 form{
-    background-color: rgb(68, 144, 243);
+    border: solid 1px rgb(166, 197, 255);
     margin: 40px 0px;
     padding: 30px;
     border-radius: 12px;
+    color: #c7c7c7;
 
 }
+
+
 
 form label{
     display:block;
@@ -104,9 +107,19 @@ form label{
 
 .input-main{
     display:block;
-    padding: 8px 0;
+    padding: 12px 0;
     width: 600px;
     margin: 8px auto; 
+}
+
+.input-button{
+    display:block;
+    padding: 14px 0;
+    width: 600px;
+    margin: 8px auto; 
+    background-color: #13f7ff;
+    border: none;
+    border-radius: 6px;
 }
 
 h2 {
