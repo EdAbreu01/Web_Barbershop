@@ -75,6 +75,7 @@ header {
     border: solid 1px rgb(255, 255, 255);
     margin: 30px ;
     color: #eeeeee;
+    transition: .5s;
   }
 
 .card:hover{
